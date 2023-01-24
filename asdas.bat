@@ -1,0 +1,1 @@
+cd .\build\install\Martinez-Evaluacion & start java -Dserver.port=8000 -classpath lib/* com.distribuida.servidor & start java -Dserver.port=8001 -classpath lib/* com.distribuida.servidor & start java -Dserver.port=8002 -classpath lib/* com.distribuida.servidor & start java -Dserver.port=8003 -classpath lib/* com.distribuida.servidor
