@@ -18,15 +18,14 @@ services:
 #       - 5050:80
 
  books-service:
-
    image: jaroserop1/examen:1.0.0
    environment:
      DB_USER: postgres
      DB_PASSWORD: postgres
      DB_URL: jdbc:postgresql://postgres-sql:5432/distribuida
+     SERVER_PORT: 80
    depends_on:
      - postgres-sql
-
    deploy:
      replicas: 1
    ports:
